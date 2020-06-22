@@ -7,9 +7,9 @@ int main(){
 	int np;
 	printf("Input number of people : "); scanf("%d",&np); printf("\n");
 	bmi(np);
-	
 	return 0;
 }
+
 void bmi(int np){
 	int i,w[np],h[np];
 	for(i = 1; i <= np; i++){
